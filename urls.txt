@@ -1,1 +1,2 @@
-https://www.levels.fyi/jobs?from=subnav&jobFamilySlugs=software-engineer%2Cdata-scientist%2Cbusiness-analyst&locationSlugs=united-states%2Ccanada&postedAfterTimeType=days&postedAfterValue=1&standardLevels=entry%2Cinternship&jobId=99441083848499910
+https://www.levels.fyi/jobs/level/entry?from=subnav&jobFamilySlugs=software-engineer%2Cdata-scientist%2Cbusiness-analyst&locationSlugs=united-states%2Ccanada&postedAfterTimeType=days&postedAfterValue=1&jobId=99441083848499910
+https://www.levels.fyi/jobs/level/internship?from=subnav&jobFamilySlugs=software-engineer%2Cdata-scientist%2Cbusiness-analyst&locationSlugs=united-states%2Ccanada&postedAfterTimeType=days&postedAfterValue=1&jobId=99441083848499910

@@ -1,9 +1,5 @@
-# Create a new virtual environment
-python -m venv .venv
-
-# install required packages
-.venv/Scripts/Activate.ps1
-pip install -r requirements.txt
-deactivate
-
 # setup task to launch on startup
+
+$taskTrigger = New-ScheduledTaskTrigger -AtLogOn -User "Work"
+$taskAction = New-ScheduledTaskAction -Execute "PowerShell" -Argument '-NoProfile -ExecutionPolicy Bypass -File "C:\Users\Work\OneDrive - Cornell University\Personal projects\job-hunt\open_sites.ps1"' -WorkingDirectory "C:\Users\Work\OneDrive - Cornell University\Personal projects\job-hunt"
+Register-ScheduledTask 'Open Relevant Searches' -Action $taskAction -Trigger $taskTrigger
